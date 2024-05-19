@@ -60,7 +60,7 @@ export default function Navbar() {
       {/* Mobile Menu */}
       <ul>
         {open ? (
-          <div className="md:hidden">
+          <div className="md:hidden transition-all duration-500">
             <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
               {Links.map((link, index) => (
                 <li className={heading2}>
