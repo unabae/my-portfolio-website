@@ -17,7 +17,7 @@ export default function Navbar() {
 
   const handleMenu = () => {
     setOpen((prev) => !prev);
-  }
+  };
 
   return (
     <div className="px-10 py-5 md:flex justify-between top-0">
@@ -64,13 +64,17 @@ export default function Navbar() {
             <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
               {Links.map((link, index) => (
                 <li className={heading2}>
-                  <a key={index} href={link.link}>
+                  <a
+                    className="text-white transition-all duration-500 hover:text-lime-500"
+                    key={index}
+                    href={link.link}
+                  >
                     {link.name}
                   </a>
                 </li>
               ))}
             </div>
-            <button className={heading2 + " bg-lime-600 px-6 rounded-full "}>
+            <button className={heading2 + " bg-lime-600 px-6 rounded-full hover:text-lime-950 "}>
               Let's Work
             </button>
           </div>
@@ -79,4 +83,3 @@ export default function Navbar() {
     </div>
   );
 }
-
