@@ -6,7 +6,7 @@ import Header from "./components/Header";
 function App() {
   return (
     <>
-    <Navbar/>
+    <Navbar />
     <Header />
     </>
   );

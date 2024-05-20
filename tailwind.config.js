@@ -10,7 +10,13 @@ export default {
       fontFamily: {
         title: ['"Manrope"']
       },
-      
+      screens: {
+        'xs': '320px',
+      },
+      colors: {
+        'customGray': "#8B8B8B",
+        'customBgGray': "#414141"
+      }
     },
   },
   plugins: [],
