@@ -1,7 +1,7 @@
 
 export default function Header2() {
   return (
-    <div className="">
+    <div className="mt-10">
       <h1 className="text-lime-600 font-title font-semibold text-center ">BUILDING BEAUTIFUL AND FUNCTIONAL WEBSITES</h1>
       <div>
         <p>

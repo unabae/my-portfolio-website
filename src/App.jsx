@@ -4,7 +4,6 @@ import Navbar from "./components/Navbar";
 import Header from "./components/Header";
 import Body from "./components/Body";
 import { CONTENT } from "./data.js";
-import Header2 from "./components/Header2.jsx";
 import { LampDemo } from "./components/ui/lamp";
 
 
