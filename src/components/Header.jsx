@@ -24,7 +24,7 @@ export default function Header() {
         <div className="w-3/5">
           <h1 className="text-white text-6xl font-semibold pb-5">HELLO!</h1>
           <h2 className="text-white text-4xl font-extralight">
-            I'm Laurence, a<br />
+            I'm Laurence, a
           </h2>
           <h2>
             <FlipPhrases
