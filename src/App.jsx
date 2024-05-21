@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar";
 import Header from "./components/Header";
 import Body from "./components/Body";
 import { CONTENT } from "./data.js";
+import Header2 from "./components/Header2.jsx";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
         title={CONTENT[2].title}
         content={CONTENT[2].content}
       />
+      <Header2 />
       <Analytics />
     </>
   );
