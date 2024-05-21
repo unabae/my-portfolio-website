@@ -1,34 +1,7 @@
-export default function Body({srcImage, title, content }) {
-    
+const buttonStyle = "text-sm bg-lime-600 text-black font-light py-2 px-6 rounded-full hover:bg-lime-800 focus:outline-none focus:ring-2 focus:ring-lime-600 focus:ring-opacity-50";
 
-//   return (
-//     <div className="px-10 my-10">
-//       <div className="px-5 my-10 w-auto h-auto">
-//         <div className= "sm:mt-0 md:mt-0 h-auto w-auto rounded-xl px-1">
-//           <figure className="md:flex rounded-xl p-8 md:p-0">
-//             <img
-//               className="w-2/4 h-72 md:rounded-none rounded-full mx-auto"
-//               src={srcImage}
-//               alt=""
-//             />
-//             <div className="pt-6 w-2/4 md:p-8 text-center md:text-left space-y-4">
-//               <blockquote>
-//                 <h1 className="font-title font-bold text-white pb-6 text-lg">
-//                   {title}
-//                 </h1>
-//                 <p className="font-title font-normal text-white text-sm">
-//                   {content}
-//                 </p>
-//               </blockquote>
-//               <div className="h-10 w-full bg-red-50"></div>
-//             </div>
-//           </figure>
-//         </div>
-//         <div className="my-10 h-px w-auto bg-slate-100"></div>
-//       </div>
-//     </div>
-//   );
-return (
+export default function Body({ srcImage, title, content }) {
+  return (
     <div className="px-4 py-10 sm:px-6 lg:px-8">
       <div className="w-full h-auto">
         <div className="h-auto w-full rounded-xl">
@@ -47,7 +20,17 @@ return (
                   {content}
                 </p>
               </blockquote>
-              <div className="h-10 w-full bg-red-50"></div>
+              <div className="h-10 w-full space-x-2">
+                <button className={buttonStyle}>
+                  HTML
+                </button>
+                <button className={buttonStyle}>
+                  TAILWIND CSS
+                </button>
+                <button className={buttonStyle}>
+                  REACT
+                </button>
+              </div>
             </div>
           </figure>
         </div>
@@ -55,5 +38,4 @@ return (
       </div>
     </div>
   );
-  
 }
