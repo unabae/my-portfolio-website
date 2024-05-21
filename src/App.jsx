@@ -4,7 +4,9 @@ import Navbar from "./components/Navbar";
 import Header from "./components/Header";
 import Body from "./components/Body";
 import { CONTENT } from "./data.js";
+import { projects } from "./data.js";
 import { LampDemo } from "./components/ui/lamp";
+import { HoverEffect } from "./components/ui/card-hover-effects";
 
 
 function App() {
@@ -28,6 +30,7 @@ function App() {
         content={CONTENT[2].content}
       />
       <LampDemo />
+      <HoverEffect items={projects} />
       <Analytics />
     </>
   );
