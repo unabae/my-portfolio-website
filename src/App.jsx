@@ -5,6 +5,8 @@ import Header from "./components/Header";
 import Body from "./components/Body";
 import { CONTENT } from "./data.js";
 import Header2 from "./components/Header2.jsx";
+import { LampDemo } from "./components/ui/lamp";
+
 
 function App() {
   return (
@@ -27,6 +29,7 @@ function App() {
         content={CONTENT[2].content}
       />
       <Header2 />
+      <LampDemo />
       <Analytics />
     </>
   );

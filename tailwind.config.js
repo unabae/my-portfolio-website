@@ -16,7 +16,8 @@ export default {
       },
       colors: {
         'customGray': "#8B8B8B",
-        'customBgGray': "#414141"
+        'customBgGray': "#414141",
+        'customBgBody': "#1B1B1B"
       }
     },
   },
