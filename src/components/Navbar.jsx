@@ -8,7 +8,7 @@ export default function Navbar() {
     "text-white font-title font-light leading-10 sm:mx-0 md:mx-4 hover:text-lime-500";
 
   let Links = [
-    { name: "About Me", link: "/aboutme" },
+    { name: "About Me", link: "https://laurence-unabia.vercel.app/aboutme" },
     { name: "Projects", link: "/" },
     { name: "Contact", link: "/" },
   ];
