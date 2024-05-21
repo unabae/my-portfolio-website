@@ -1,8 +1,19 @@
 import backdrop from "../assets/backdrop.png";
 import my_image from "../assets/my_image.png";
 import web_icon from "../assets/mdi_web.png";
+import { FlipPhrases } from "./ui/flip-words";
 
 export default function Header() {
+  const phrases = [
+    "Web Developer",
+    "Creative Thinker",
+    "Problem Solver",
+    "Tech Enthusiast",
+    "Team Player",
+    "Lifelong Learner",
+    "UX Designer",
+    "Frontend Engineer",
+  ];
   const title = "font-title font-bold leading-10 hover:text-lime-500 ";
   const heading2 =
     "text-white font-title font-light leading-10 sm:mx-0 md:mx-4 hover:text-lime-500";
@@ -13,7 +24,8 @@ export default function Header() {
         <div className="w-3/5">
           <h1 className="text-white text-6xl font-semibold pb-5">HELLO!</h1>
           <h2 className="text-white text-5xl font-extralight">
-            I'm Laurence, <br />a Web Developer
+            I'm Laurence, a<br />
+            <FlipPhrases phrases={phrases} />
           </h2>
           <button
             className={
@@ -49,10 +61,10 @@ export default function Header() {
             />
             <div className="pt-6 md:p-8 text-center md:text-left space-y-4">
               <blockquote>
-                <h1 className="font-title font-bold text-white pb-6 text-lg">
+                <h1 className="font-title font-bold text-white pb-6 text-2xl">
                   Web Developer
                 </h1>
-                <p className="font-title font-normal text-white text-sm">
+                <p className="font-title font-normal text-white text-lg">
                   With extensive experience in web development, I specialize in
                   creating modern and user-friendly websites. My skills include
                   HTML, CSS, JavaScript, and responsive design.
@@ -62,7 +74,9 @@ export default function Header() {
           </figure>
         </div>
         <div className="w-auto h-10 mt-10">
-          <h1 className={title + " text-lime-600"}>FEATURED PROJECTS</h1>
+          <h1 className={title + " text-lime-600 text-4xl"}>
+            FEATURED PROJECTS
+          </h1>
         </div>
       </div>
     </>
