@@ -28,7 +28,6 @@ function App() {
         title={CONTENT[2].title}
         content={CONTENT[2].content}
       />
-      <Header2 />
       <LampDemo />
       <Analytics />
     </>
