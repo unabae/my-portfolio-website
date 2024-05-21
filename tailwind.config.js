@@ -11,7 +11,7 @@ export default {
         title: ['"Manrope"']
       },
       screens: {
-        'mini': {'min': '110px', 'max': '319px'},
+        // 'mini': {'min': '110px', 'max': '319px'},
         'xs': '320px',
       },
       colors: {

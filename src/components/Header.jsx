@@ -102,7 +102,7 @@ export default function Header() {
         </div>
       </header>
       <div className="relative xs:-mt-11 sm:-mt-11 md:-mt-11 px-10">
-        <div className="h-auto w-auto px-10 bg-customBgGray rounded-xl border border-slate-500">
+        <div className= "relative sm:mt-0 md:mt-0 h-auto w-auto px-10 bg-customBgGray rounded-xl border border-slate-500">
           <figure className="relative z-30 md:flex rounded-xl p-8 md:p-0">
             <img
               className="m-4 w-24 h-24 md:w-48 md:h-auto md:rounded-none rounded-full mx-auto"
@@ -111,7 +111,7 @@ export default function Header() {
               width="384"
               height="512"
             />
-            <div className="mini:top-10 pt-6 md:p-8 text-center md:text-left space-y-4">
+            <div className="pt-6 md:p-8 text-center md:text-left space-y-4">
               <blockquote>
                 <h1 className="font-title font-bold text-white pb-6 text-lg">Web Developer</h1>
                 <p className="font-title font-normal text-white text-sm">
