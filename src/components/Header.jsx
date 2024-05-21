@@ -23,10 +23,16 @@ export default function Header() {
       <header className="px-10 py-5 md:flex justify-between md:mt-14 xs:mt-5">
         <div className="w-3/5">
           <h1 className="text-white text-6xl font-semibold pb-5">HELLO!</h1>
-          <h2 className="text-white text-5xl font-extralight">
-            I'm Laurence, <br />
-            a <FlipPhrases phrases={phrases} />
+          <h2 className="text-white text-4xl font-extralight">
+            I'm Laurence, a<br />
           </h2>
+          <h2>
+            <FlipPhrases
+              className= "text-5xl font-extralight"
+              phrases={phrases}
+            />
+          </h2>
+
           <button
             className={
               heading2 +
