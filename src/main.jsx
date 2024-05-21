@@ -7,12 +7,12 @@ import AboutMe from './components/AboutMe.jsx'
 
 
 const router = createBrowserRouter([{
-  path: 'https://laurence-unabia.vercel.app/',
+  path: '/',
   element: <App />,
   errorElement: <div>404 Not Found</div>,
 },
 {
-  path: 'https://laurence-unabia.vercel.app/aboutme',
+  path: '/aboutme',
   element: <AboutMe />
 }
 ]);
