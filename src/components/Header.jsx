@@ -24,8 +24,8 @@ export default function Header() {
         <div className="w-3/5">
           <h1 className="text-white text-6xl font-semibold pb-5">HELLO!</h1>
           <h2 className="text-white text-5xl font-extralight">
-            I'm Laurence, a<br />
-            <FlipPhrases phrases={phrases} />
+            I'm Laurence, <br />
+            a <FlipPhrases phrases={phrases} />
           </h2>
           <button
             className={
